@@ -3,11 +3,11 @@ import time
 
 def temperature_alert(temp):
     if temp < 15:
-        print(f"Temperature: {temp}°C → Cold ❄️")
+        print(f"Temperature: {temp}°C → Cold ")
     elif 15 <= temp <= 30:
-        print(f"Temperature: {temp}°C → Normal 🌤️")
+        print(f"Temperature: {temp}°C → Normal ")
     else:
-        print(f"Temperature: {temp}°C → Hot ☀️")
+        print(f"Temperature: {temp}°C → Hot ")
 
 # Check if user provided an argument
 if len(sys.argv) != 2:
