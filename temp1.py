@@ -1,4 +1,4 @@
- import sys
+import sys
 
 # check if argument is given
 if len(sys.argv) < 2:
